@@ -1,9 +1,9 @@
 from cx_Freeze import setup, Executable
 
-executables = [Executable("main.py")]
+executables = [Executable("main.py"), Executable("extras.py")]
 
 setup(
-    name='Pong',
+    name = 'Pong',
     author = 'Ethan Armstrong',
     options={
         "build_exe": {

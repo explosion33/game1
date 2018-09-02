@@ -193,7 +193,7 @@ class textBox(object):
                 self.active = False
 
     def addText(self):
-        if type(getKeys()) == list
+        if type(getKeys()) == list:
             if len(getKeys()) >= 1:
                 self.keys = getKeys()
                 for key in self.keys:
